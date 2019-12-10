@@ -1,3 +1,23 @@
+#hm-top {
+  background-image: url(../images/main-image-300x105.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  color: white;
+  width: 100%;
+  height: 310px;
+  line-height: 26px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+#hm-top h2 {
+  font-size: 1.7em;
+  margin-bottom: 15px;
+}
+
 #main-container {
   display: flex;
   flex-direction: column;
@@ -74,4 +94,40 @@ button {
 
 .hm-product-reviews img {
   width: 90%;
+}
+
+.hm-read-more {
+  background-color: #727370;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.hm-read-more::before {
+  content: url(../images/btn.png);
+  padding-right: 10px;
+}
+
+#hm-unsure {
+  background-image: url('../images/start-here-300x35.png');
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  padding: 60px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+#hm-unsure h3 {
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+
+#hm-unsure a {
+  color: black;
+  padding: 10px;
+  background-color: white;
 }
