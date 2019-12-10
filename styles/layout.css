@@ -170,6 +170,10 @@ button {
   width: 100%;
 }
 
+.art-header a {
+  color: slategray;
+}
+
 .social-icons {
   margin-top: 40px;
   border-bottom: 1px solid #E8E8E8;
@@ -180,4 +184,34 @@ button {
   border-radius: 50%;
   padding: 10px;
   margin: 3px;
+}
+
+/* Base Footer Styling */
+.footer-container {
+  background: #272121;
+  height: 150px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+
+.footer-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-container li {
+  border-right: 1px solid white;
+  padding: 0 10px;
+}
+
+.footer-container li:nth-child(3) {
+  border: none;
 }
