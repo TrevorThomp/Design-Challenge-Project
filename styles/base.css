@@ -3,3 +3,16 @@
 @import url('modules.css');
 @import url('state.css');
 
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+}
