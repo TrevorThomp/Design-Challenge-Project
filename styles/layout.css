@@ -5,7 +5,8 @@
   align-items: center;
 }
 
-.hm-buying-guide {
+.hm-buying-guide,
+.hm-product-reviews {
   background-color: #F1F3F2;
   margin: 15px;
   width: 90%;
@@ -63,4 +64,14 @@ button {
   width: 90%;
   padding: 15px;
   margin: 10px 0;
+}
+
+.hm-product-reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hm-product-reviews img {
+  width: 90%;
 }
