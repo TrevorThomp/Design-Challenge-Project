@@ -1,0 +1,22 @@
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hm-buying-guide {
+  background-color: #F1F3F2;
+  margin: 15px;
+  width: 90%;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+.hm-buying-guide img {
+  width: 100%;
+}
+
+.hm-buying-guide p{
+  margin: 10px 0;
+}
