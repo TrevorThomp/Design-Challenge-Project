@@ -16,3 +16,9 @@ h3 {
 a {
   text-decoration: none;
 }
+
+.travel-img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
