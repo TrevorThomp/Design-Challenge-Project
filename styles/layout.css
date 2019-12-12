@@ -113,10 +113,38 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  line-height: 26px;
 }
 
-.hm-product-reviews img {
-  width: 90%;
+.hm-product-reviews img,
+.hm-product-reviews h3,
+.hm-product-reviews p {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.hm-product-reviews a {
+  padding: 7px;
+  border: 1px solid #727370;
+  color: #727370;
+  width: 25%;
+  text-align: center;
+  position: relative;
+  margin-left: 44px;
+}
+
+.hm-product-reviews a::after {
+  content: '';
+  background: url(../images/share-btn.png);
+  background-color: #727370;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -45px;
+  top: 50%;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hm-read-more {
