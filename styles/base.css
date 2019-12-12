@@ -12,6 +12,7 @@
 
 h3 {
   font-size: 1.4em;
+  color: #45464B;
 }
 
 a {
@@ -22,4 +23,14 @@ a {
   height: 80px;
   width: 80px;
   object-fit: cover;
+}
+
+p {
+  font-size: 18px;
+  color: #707088;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: #45464B;
 }

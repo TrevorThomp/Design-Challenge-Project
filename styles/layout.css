@@ -41,7 +41,7 @@
   width: 100%;
 }
 
-.hm-buying-guide p{
+.hm-buying-guide p {
   margin: 10px 0;
 }
 
@@ -197,6 +197,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   /* padding: 50px; */
 }
 
@@ -296,4 +297,11 @@ button {
   width: 100%;
   margin-bottom: 20px;
   border: .7px solid #d1d0d0;
+}
+
+/*  Buying Guide */
+
+#buying-guide {
+  margin-left: 15%;
+  margin-right: 15%;
 }
