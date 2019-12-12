@@ -1,0 +1,11 @@
+.rating-table {
+  outline: 2px solid lightgrey;
+}
+
+.rating-table th {
+  width: 50%;
+}
+
+.rating-table tr {
+  outline: 2px solid lightgrey;
+}
