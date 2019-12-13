@@ -19,10 +19,13 @@
 }
 
 /* Home Page Modules */
-
 .hm-h3,
 .hm-p {
   color: black;
+}
+
+.hm-h3 {
+  text-transform: uppercase;
 }
 
 .hm-p {
@@ -100,6 +103,13 @@ button {
   font-size: 20px;
 }
 
+#newsletter-form button:hover {
+  background: #727370;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
 .hm-buying-guide,
 .hm-product-reviews {
   background-color: #F1F3F2;
@@ -175,8 +185,6 @@ button {
   width: 37%;
 }
 
-
-
 .hm-read-more:hover {
   background-color: #8C1515;
 }
@@ -235,5 +243,3 @@ button {
 #footer-p {
   color: white;
 }
-
-
