@@ -40,6 +40,11 @@
   font-size: 1.7em;
   margin-bottom: 15px;
   margin-top: 80px;
+  color: white;
+}
+
+#hm-top p {
+  color: white;
 }
 
 #main-container {
@@ -82,11 +87,13 @@
   font-style: italic;
   font-weight: 600;
   font-size: 1.5em;
+  color: white;
 }
 
 .hm-newsletter p {
-  margin: 0px 10px;
-  font-size: 1.2em;
+  margin: 5px 5px;
+  font-size: 1em;
+  color: white;
 }
 
 .hm-newsletter-caps {
@@ -176,6 +183,7 @@ button {
 #hm-unsure h3 {
   font-size: 1.4em;
   margin-bottom: 20px;
+  color: white;
 }
 
 #hm-unsure a {

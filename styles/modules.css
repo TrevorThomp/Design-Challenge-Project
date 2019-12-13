@@ -17,3 +17,14 @@
   padding: 4%;
   text-align: center;
 }
+
+/* Home Page Modules */
+
+.hm-h3,
+.hm-p {
+  color: black;
+}
+
+.hm-p {
+  font-size: 14px;
+}
