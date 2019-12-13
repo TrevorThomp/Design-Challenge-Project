@@ -299,6 +299,63 @@ button {
   border: .7px solid #d1d0d0;
 }
 
+.travel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel-container h1 {
+  font-size: 46px;
+  font-weight: 500;
+  color: #333;
+}
+
+.travel-container p {
+  line-height: 1.5em;
+  color: #666;
+}
+
+.travel-container h3, h2, p {
+  margin-bottom: 20px;
+}
+
+.travel-container img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.travel-outline {
+  background: #eaecf1;
+  margin-bottom: 20px;
+  line-height: 2em;
+  border-radius: 3px;
+}
+
+.travel-outline p {
+  background: rgb(109, 22, 30);
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 0px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.travel-outline ul {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.travel-outline a {
+  color: rgb(109, 22, 30);
+}
+
+.travel-outline ul li ul li {
+  font-weight: normal;
+}
+
 /*  Buying Guide */
 
 #buying-guide {
