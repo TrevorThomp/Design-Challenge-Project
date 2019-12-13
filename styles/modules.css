@@ -79,6 +79,27 @@
   color: white;
 }
 
+#newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#newsletter-form input,
+button {
+  width: 90%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#newsletter-form button {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .hm-buying-guide,
 .hm-product-reviews {
   background-color: #F1F3F2;
@@ -214,3 +235,5 @@
 #footer-p {
   color: white;
 }
+
+
