@@ -104,10 +104,10 @@ button {
 }
 
 #newsletter-form button:hover {
-  background: #727370;
+  background-color: #727370;
   color: white;
   cursor: pointer;
-  border: none;
+  border: 2px solid #727370;
 }
 
 .hm-buying-guide,
