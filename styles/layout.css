@@ -287,12 +287,6 @@ button {
   margin: 10%;
 }
 
-.travel-img {
-  height: 80px;
-  width: 80px;
-  object-fit: cover;
-}
-
 .hr-travel {
   width: 100%;
   margin-bottom: 20px;
@@ -469,8 +463,43 @@ button {
   background: #f5f5f5;
 }
 
+#travel-recent {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  margin: 20px 0px;
+  padding: 30px;
+  padding-bottom: 50px;
+}
 
+#travel-recent p {
+  color: #1153e0;
+  font-size: 1.3em;
+}
 
+#travel-recent img {
+  vertical-align: top;
+  float: left;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border: 2px solid white;
+  outline: 1px solid #ddd;
+  margin-right: 20px;
+}
+
+#travel-recent a {
+  color: #333;
+  font-size: 1.2em;
+}
+
+#travel-recent a:hover {
+  color: rgb(109, 22, 30);
+}
+
+#travel-recent hr {
+  border: .7px solid #d1d0d0; 
+  margin: 30px 0px;
+}
 
 /*  Buying Guide */
 
