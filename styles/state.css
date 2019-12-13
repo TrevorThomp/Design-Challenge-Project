@@ -1,6 +1,21 @@
 @media (min-width: 900px) {
+  #hm-header {
+    width: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #hm-header img {
+    width: 15%;
+    height: 60px;
+  }
+
+  #hm-header li {
+    font-size: 15px;
+  }
+  
   #hm-top {
-    height: 800px;
+    height: 700px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -10,7 +25,7 @@
   #hm-top h2,
   #hm-top p {
     width: 35%;
-    margin-left: 300px;
+    margin-left: 400px;
   }
 
   .hm-buying-guide-container {
@@ -34,5 +49,9 @@
 
   #hm-unsure a {
     width: 8%;
+  }
+
+  .hm-footer-container {
+    padding-right: 300px;
   }
 }
