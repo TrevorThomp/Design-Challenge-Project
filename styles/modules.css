@@ -1,0 +1,19 @@
+.rating-table {
+  padding: 5px;
+  outline: 2px solid lightgrey;
+}
+
+.rating-table th {
+  padding: 5%;
+  width: 50%;
+}
+
+.rating-table tr {
+  padding: 5px;
+  outline: 2px solid lightgrey;
+}
+
+.rating-table td {
+  padding: 4%;
+  text-align: center;
+}
