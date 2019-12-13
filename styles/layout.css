@@ -1,3 +1,4 @@
+@import url("mobile.css") (max-width: 999px);
 @import url("desktop.css") (min-width: 1000px);
 
 /* Home Page Styling */
@@ -197,8 +198,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* padding: 50px; */
 }
 
 .content-container h1 {
@@ -325,16 +324,12 @@ button {
   font-weight: 500;
 }
 
-.travel-container img {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
 .travel-outline {
   background: #eaecf1;
   margin-bottom: 20px;
   line-height: 2em;
   border-radius: 3px;
+  width: 100%;
 }
 
 .travel-outline p {
@@ -453,7 +448,7 @@ button {
 }
 
 .travel-sidebar button {
-  width: 9%;
+  width: 8%;
   height: 50px;
   padding: 0px;
   font-size: 1em;
