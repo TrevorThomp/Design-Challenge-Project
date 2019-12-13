@@ -321,6 +321,16 @@ button {
   margin-bottom: 20px;
 }
 
+.travel-container h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.travel-container h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .travel-container img {
   width: 100%;
   margin-bottom: 20px;
@@ -354,6 +364,24 @@ button {
 
 .travel-outline ul li ul li {
   font-weight: normal;
+}
+
+.travel-a {
+  color: rgb(109, 22, 30);
+}
+
+#pocket-list {
+  border: 2px solid black;
+  padding: 30px; 
+  line-height: 2.5em;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.fa-check {
+  padding-right: 10px;
+  color: #62D03E;
 }
 
 /*  Buying Guide */
