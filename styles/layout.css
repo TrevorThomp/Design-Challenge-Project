@@ -370,8 +370,7 @@ button {
   color: rgb(109, 22, 30);
 }
 
-#pocket-list {
-  border: 2px solid black;
+#pocket-list, #cleaning-list {
   padding: 30px; 
   line-height: 2.5em;
   margin-bottom: 20px;
@@ -379,10 +378,27 @@ button {
   color: #666;
 }
 
+#pocket-list {
+  border: 2px solid black;
+}
+
 .fa-check {
   padding-right: 10px;
   color: #62D03E;
 }
+
+#cleaning-list {
+  border: 2px solid #1153e0;
+  text-indent: -15px;
+  padding-left: 60px;
+}
+
+.fa-share {
+  padding-right: 10px;
+  color: #1153e0;
+}
+
+
 
 /*  Buying Guide */
 
