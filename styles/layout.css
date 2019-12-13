@@ -370,7 +370,7 @@ button {
   color: rgb(109, 22, 30);
 }
 
-#pocket-list, #cleaning-list {
+#pocket-list, #cleaning-list, #resources-list {
   padding: 30px; 
   line-height: 2.5em;
   margin-bottom: 20px;
@@ -396,6 +396,21 @@ button {
 .fa-share {
   padding-right: 10px;
   color: #1153e0;
+}
+
+#resources-list {
+  border: 2px solid #666;
+  padding: 20px;
+  line-height: 1.7em;
+}
+
+#resources-list li:first-child {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#resources-list a {
+  color: rgb(109, 22, 30);
 }
 
 
