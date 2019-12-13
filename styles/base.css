@@ -18,6 +18,15 @@ a {
   text-decoration: none;
 }
 
+font {
+  font-size: 20px;
+}
+
+font:nth-of-type(2) {
+  font-size: 25px;
+  font-weight: 600;
+}
+
 .travel-img {
   height: 80px;
   width: 80px;
