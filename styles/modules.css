@@ -57,6 +57,15 @@
   margin: 20px 0;
 }
 
+.hm-buying-guide,
+.hm-product-reviews {
+  background-color: #F1F3F2;
+  margin: 15px;
+  width: 90%;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
 .hm-newsletter {
   display: flex;
   justify-content: center;
@@ -67,12 +76,13 @@
   line-height: 1.5;
   width: 90%;
   padding: 20px;
+  margin: 15px;
 }
 
 .hm-newsletter h3 {
-  font-style: italic;
-  font-weight: 600;
-  font-size: 1.5em;
+  font-family: 'Playball' !important;
+  font-weight: 400 !important;
+  font-size: 25px;
   color: white;
 }
 
@@ -108,15 +118,6 @@ button {
   color: white;
   cursor: pointer;
   border: 2px solid #727370;
-}
-
-.hm-buying-guide,
-.hm-product-reviews {
-  background-color: #F1F3F2;
-  margin: 15px;
-  width: 90%;
-  line-height: 1.5;
-  font-size: 1em;
 }
 
 .hm-buying-guide:nth-of-type(3) {
@@ -183,6 +184,7 @@ button {
   text-align: center;
   float: right;
   width: 37%;
+  margin-bottom: 30px;
 }
 
 .hm-read-more:hover {
