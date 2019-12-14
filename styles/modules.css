@@ -52,7 +52,9 @@ padding: 3%;
 }
 
 .review-author {
+  font-family: Open Sans,sans-serif;
   list-style: none;
+  color: #b3b3b3;
 }
 
 .review-gr {
