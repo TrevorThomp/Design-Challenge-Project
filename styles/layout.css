@@ -2,6 +2,20 @@
 @import url("desktop.css") (min-width: 1000px);
 
 /* Home Page Styling */
+.hm-header-container {
+  display: flex;
+  justify-content: center;
+}
+
+#hm-header {
+  width: 90%;
+  height: 95px;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  padding: 20px 10px;
+}
+
 #hm-top {
   background-image: url(../images/main-image-300x105.png);
   background-size: cover;
@@ -17,11 +31,6 @@
   font-size: 14px;
 }
 
-#hm-top h2 {
-  font-size: 1.7em;
-  margin-bottom: 15px;
-}
-
 #main-container {
   display: flex;
   flex-direction: column;
@@ -29,111 +38,18 @@
   align-items: center;
 }
 
-.hm-buying-guide,
-.hm-product-reviews {
-  background-color: #F1F3F2;
-  margin: 15px;
-  width: 90%;
-  line-height: 1.5;
-  font-size: 1em;
-}
-
-.hm-buying-guide img {
-  width: 100%;
-}
-
-.hm-buying-guide p {
-  margin: 10px 0;
-}
-
-.hm-newsletter {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: #8C1515;
+/* Home Page Footer */
+.hm-footer-container {
+  background-color: #272121;
   color: white;
-  line-height: 1.5;
-  width: 90%;
-  padding: 20px;
-}
-
-.hm-newsletter h3 {
-  font-style: italic;
-  font-weight: 600;
-  font-size: 1.5em;
-}
-
-.hm-newsletter p {
-  margin: 0px 10px;
-  font-size: 1.2em;
-}
-
-.hm-newsletter-caps {
-  text-transform: uppercase;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-#newsletter-form {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100px;
   width: 100%;
-}
-
-#newsletter-form input,
-button {
-  width: 90%;
+  font-size: 15px;
   padding: 15px;
-  margin: 10px 0;
-}
-
-.hm-product-reviews {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hm-product-reviews img {
-  width: 90%;
-}
-
-.hm-read-more {
-  background-color: #727370;
-  padding: 10px;
-  color: white;
-  text-align: center;
-}
-
-.hm-read-more::before {
-  content: url(../images/btn.png);
-  padding-right: 10px;
-}
-
-#hm-unsure {
-  background-image: url('../images/start-here-300x35.png');
-  background-position-x: 50%;
-  background-position-y: 50%;
-  background-size: cover;
-  width: 100%;
-  height: 200px;
-  padding: 60px;
-  text-align: center;
-  color: white;
-  position: relative;
-}
-
-#hm-unsure h3 {
-  font-size: 1.6em;
-  margin-bottom: 30px;
-}
-
-#hm-unsure a {
-  color: black;
-  padding: 10px;
-  background-color: white;
 }
 
 /* Base Header Styling */
@@ -262,7 +178,8 @@ button {
   font-size: 1em;
 }
 
-.footer-container ul {
+.footer-container ul,
+.hm-footer-container ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
