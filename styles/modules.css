@@ -297,6 +297,10 @@ button {
     text-decoration: none;
   }
 
+  .review-h2 {
+    padding: 0 20px;
+  }
+
 
   .hr-review {
     margin: auto;
@@ -312,6 +316,7 @@ button {
     text-align: left;
     width: 100%;
     font-size: 14px;
+    padding: 0 20px;
   }
 
   .review-author a {
