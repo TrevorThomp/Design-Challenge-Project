@@ -11,8 +11,9 @@
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   color: #45464B;
+  text-align: left;
 }
 
 a {
@@ -44,7 +45,19 @@ p {
   font-size: 12pt;
 }
 
+button {
+  width: 276px;
+  height: 50px;
+
+}
+
 h2 {
-  font-size: 1.6em;
+
+  font-size: 2.1em;
   color: #45464B;
+  text-align: left;
+}
+
+section>img {
+  text-align: center;
 }
