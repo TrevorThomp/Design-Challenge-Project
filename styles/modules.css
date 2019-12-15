@@ -249,41 +249,65 @@ button {
 
 
 /* REVIEWS PAGE*/
-.review-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  padding: 3%;
-  }
-  
+
   .review-span {
-      font-family: 'Roboto', sans-serif;
       border-radius: 50px;
       border: 2px solid rgba(109,22,30,0.4);
       background-clip: padding-box;
-      color: rgba(109,22,30,0.4);
-      display: table;
+      color: rgb(97, 20, 28);
       font-size: 15px;
-      font-weight: 500;
       line-height: 25px;
+      padding: 10px;
+      margin-left: 160px;
   }
-  
+
+  .review-span:hover {
+    border: 2px solid rgba(61, 12, 17, 0.562);
+    color: rgba(134, 31, 41, 0.514);
+  }
+
   .review-img {
-    height: 150px;
+   height: 150px;
    width: 100%;
+   margin-bottom: 20px;
    object-fit: cover;
    overflow: hidden; 
-  
+  }
+
+  .review-p {
+    color: #666;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 35px;
+    padding: 0 20px;
   }
   
   .review-a {
     text-decoration: none;
   }
+
+  .review-h2 {
+    padding: 0 20px;
+  }
+
+  .hr-review {
+    margin: auto;
+    width: 85%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: .7px solid #e8e8e8;
+  }
   
   .review-author {
-    font-family: Open Sans,sans-serif;
-    list-style: none;
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .review-author a {
     color: #b3b3b3;
   }
   
@@ -291,9 +315,9 @@ button {
     height: 576px;
     margin-right: 2%;
     width: 345px;
-    box-sizing: border-box;
     border: 1px solid #e9e9e9;
     background: #f5f5f5;
     margin-bottom: 20px;
     padding-bottom: 40px;
+    line-height: 26px;
   }
