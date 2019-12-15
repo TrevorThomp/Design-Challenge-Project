@@ -419,3 +419,13 @@
   margin-left: 15%;
   margin-right: 15%;
 }
+
+
+/* Reviews */
+.review-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  padding: 3%;
+  }

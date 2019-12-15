@@ -249,14 +249,7 @@ button {
 
 
 /* REVIEWS PAGE*/
-.review-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  padding: 3%;
-  }
-  
+
   .review-span {
       border-radius: 50px;
       border: 2px solid rgba(109,22,30,0.4);
@@ -271,10 +264,6 @@ button {
   .review-span:hover {
     border: 2px solid rgba(61, 12, 17, 0.562);
     color: rgba(134, 31, 41, 0.514);
-  }
-
-  .review-span {
-    align-items: flex-end;
   }
 
   .review-img {
@@ -300,7 +289,6 @@ button {
   .review-h2 {
     padding: 0 20px;
   }
-
 
   .hr-review {
     margin: auto;
