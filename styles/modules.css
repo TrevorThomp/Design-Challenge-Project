@@ -282,8 +282,14 @@ button {
   }
   
   .review-author {
-    font-family: Open Sans,sans-serif;
-    list-style: none;
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .review-author a {
     color: #b3b3b3;
   }
   
